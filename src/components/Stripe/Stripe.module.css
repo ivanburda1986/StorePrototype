@@ -1,0 +1,78 @@
+.Stripe {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin: 0 auto;
+  text-align: center;
+  width: 100%;
+  margin-bottom: 1em;
+}
+
+.Container {
+  width: var(--container);
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+  margin: 0 auto;
+  padding-bottom: 2.5em;
+}
+
+.StripeHeader {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+/* Back button */
+.Stripe h1 {
+  color: #fff;
+}
+
+.Stripe a {
+  border: none;
+  background: none;
+  color: #fff;
+  font-size: 2rem;
+  cursor: pointer;
+  min-height: 1.5em;
+  margin-top: 0.5em;
+}
+
+/* Notification */
+.StripeNotification {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.StripeNotificationDot {
+  width: 15px;
+  height: 15px;
+  background-color: red;
+  margin-left: 0.25em;
+  border-radius: 50%;
+}
+
+.StripeNotification a {
+  display: flex;
+  font-size: 1rem;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 0.9rem;
+}
+
+.BtnPlaceholder {
+  width: 10px;
+  height: 1.5em;
+  min-height: 2em;
+  font-size: 2rem;
+}
+
+.Stripe button:hover {
+  color: rgb(196, 196, 196);
+}

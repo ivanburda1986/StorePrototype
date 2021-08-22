@@ -1,0 +1,211 @@
+{
+  "id": 1,
+  "published_at": "2021-08-13T09:38:55.245Z",
+  "created_at": "2021-08-13T09:36:27.212Z",
+  "updated_at": "2021-08-14T08:39:53.465Z",
+  "body": [
+    {
+      "__component": "ui-components.stripe",
+      "id": 1,
+      "showBackBtn": null,
+      "backTarget": null,
+      "title": "George store",
+      "backgroundColor": {
+        "id": 23,
+        "color": "blue"
+      },
+      "action": {
+        "id": 20,
+        "trackingId": null,
+        "title": "Open applications",
+        "target": "open-apps",
+        "type": "cms"
+      }
+    },
+    {
+      "__component": "ui-components.product-card",
+      "id": 4,
+      "product": {
+        "id": 11,
+        "title": "Your Online Loan",
+        "subtitle": "Your desired amount is immediately disposable on your account",
+        "type": "offer",
+        "productId": "CONSUMER-LOAN",
+        "grouping": false,
+        "icon": "FaMoneyBillWaveAlt",
+        "alwaysShow": false,
+        "trackingId": null,
+        "locale": "en",
+        "published_at": "2021-08-08T14:12:06.036Z",
+        "created_at": "2021-08-08T14:11:25.286Z",
+        "updated_at": "2021-08-10T08:38:08.230Z",
+        "productImage": {
+          "id": 2,
+          "name": "loan.png",
+          "alternativeText": "",
+          "caption": "",
+          "width": 1064,
+          "height": 840,
+          "formats": {
+            "thumbnail": {
+              "name": "thumbnail_Screenshot 2021-08-10 at 10.36.32.png",
+              "hash": "thumbnail_Screenshot_2021_08_10_at_10_36_32_a185384621",
+              "ext": ".png",
+              "mime": "image/png",
+              "width": 198,
+              "height": 156,
+              "size": 83.05,
+              "path": null,
+              "url": "/uploads/thumbnail_Screenshot_2021_08_10_at_10_36_32_a185384621.png"
+            },
+            "large": {
+              "name": "large_Screenshot 2021-08-10 at 10.36.32.png",
+              "hash": "large_Screenshot_2021_08_10_at_10_36_32_a185384621",
+              "ext": ".png",
+              "mime": "image/png",
+              "width": 1000,
+              "height": 789,
+              "size": 1503.53,
+              "path": null,
+              "url": "/uploads/large_Screenshot_2021_08_10_at_10_36_32_a185384621.png"
+            },
+            "medium": {
+              "name": "medium_Screenshot 2021-08-10 at 10.36.32.png",
+              "hash": "medium_Screenshot_2021_08_10_at_10_36_32_a185384621",
+              "ext": ".png",
+              "mime": "image/png",
+              "width": 750,
+              "height": 592,
+              "size": 906.44,
+              "path": null,
+              "url": "/uploads/medium_Screenshot_2021_08_10_at_10_36_32_a185384621.png"
+            },
+            "small": {
+              "name": "small_Screenshot 2021-08-10 at 10.36.32.png",
+              "hash": "small_Screenshot_2021_08_10_at_10_36_32_a185384621",
+              "ext": ".png",
+              "mime": "image/png",
+              "width": 500,
+              "height": 395,
+              "size": 437.91,
+              "path": null,
+              "url": "/uploads/small_Screenshot_2021_08_10_at_10_36_32_a185384621.png"
+            }
+          },
+          "hash": "Screenshot_2021_08_10_at_10_36_32_a185384621",
+          "ext": ".png",
+          "mime": "image/png",
+          "size": 1110.38,
+          "url": "/uploads/Screenshot_2021_08_10_at_10_36_32_a185384621.png",
+          "previewUrl": null,
+          "provider": "local",
+          "provider_metadata": null,
+          "created_at": "2021-08-10T08:38:01.266Z",
+          "updated_at": "2021-08-10T08:45:48.153Z"
+        }
+      },
+      "backgroundColor": {
+        "id": 24,
+        "color": "white"
+      },
+      "cardType": {
+        "id": 15,
+        "cardTypes": "featureCard"
+      }
+    },
+    {
+      "__component": "ui-components.product-card-collection",
+      "id": 11,
+      "grouping": {
+        "id": 2,
+        "name": "Plugins",
+        "published_at": "2021-08-06T21:57:50.909Z",
+        "created_at": "2021-08-06T21:57:27.443Z",
+        "updated_at": "2021-08-14T08:35:28.965Z"
+      },
+      "title": "Plugins",
+      "backgroundColor": {
+        "id": 25,
+        "color": "white"
+      },
+      "cardType": {
+        "id": 16,
+        "cardTypes": "pluginCard"
+      },
+      "action": {
+        "id": 15,
+        "trackingId": "PLUGINS_SHOW_MORE",
+        "title": "Show more",
+        "target": "plugins-page",
+        "type": "cms"
+      },
+      "filtering": []
+    },
+    {
+      "__component": "ui-components.product-card-collection",
+      "id": 12,
+      "grouping": {
+        "id": 3,
+        "name": "Banking products",
+        "published_at": "2021-08-09T08:04:36.518Z",
+        "created_at": "2021-08-09T08:01:00.974Z",
+        "updated_at": "2021-08-13T14:45:06.908Z"
+      },
+      "title": "Banking products",
+      "backgroundColor": {
+        "id": 26,
+        "color": "teal"
+      },
+      "cardType": {
+        "id": 17,
+        "cardTypes": "productCard"
+      },
+      "action": null,
+      "filtering": []
+    },
+    {
+      "__component": "ui-components.product-card-collection",
+      "id": 15,
+      "grouping": {
+        "id": 1,
+        "name": "Cards",
+        "published_at": "2021-08-06T21:57:13.244Z",
+        "created_at": "2021-08-06T21:57:02.150Z",
+        "updated_at": "2021-08-08T14:17:24.158Z"
+      },
+      "title": "Cards",
+      "backgroundColor": {
+        "id": 35,
+        "color": "gold"
+      },
+      "cardType": {
+        "id": 20,
+        "cardTypes": "productCard"
+      },
+      "action": null,
+      "filtering": []
+    },
+    {
+      "__component": "ui-components.product-card-collection",
+      "id": 16,
+      "grouping": {
+        "id": 4,
+        "name": "Insurance",
+        "published_at": "2021-08-13T19:44:32.144Z",
+        "created_at": "2021-08-13T19:42:42.530Z",
+        "updated_at": "2021-08-13T19:44:32.168Z"
+      },
+      "title": "Insurance",
+      "backgroundColor": {
+        "id": 37,
+        "color": "indigo"
+      },
+      "cardType": {
+        "id": 21,
+        "cardTypes": "productCard"
+      },
+      "action": null,
+      "filtering": []
+    }
+  ]
+}

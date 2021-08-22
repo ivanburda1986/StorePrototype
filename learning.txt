@@ -1,0 +1,10 @@
+Unix - detaching screens 
+screen -l
+screen -r 
+cd my-project/
+npm run develop
+Then anytime later type: screen -r, it resumes the screen which I created and where the server is running.
+
+Refreshing a subroute in a deployed React&Router app caused 404
+https://ui.dev/react-router-cannot-get-url-refresh/
+
